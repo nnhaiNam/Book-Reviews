@@ -30,3 +30,7 @@ It covers infrastructure provisioning, CI/CD, container security, GitOps deploym
 - Spring Boot microservices communicate via Kafka and store data in MongoDB  
 
 ---
+
+## 🧭 Architecture Diagram
+
+![Architecture](images/AWS_Architecture.pdf)
