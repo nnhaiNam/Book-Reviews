@@ -31,6 +31,21 @@ It covers infrastructure provisioning, CI/CD, container security, GitOps deploym
 
 ---
 
-## 🧭 Architecture Diagram
+## 🧭 Architecture Diagram on AWS
 
 ![Architecture](image/AWS_Architecture.png)
+
+## 🔄 CI/CD Workflow
+
+1. ✅ **Developer pushes code** to GitHub repository
+2. ⚙️ **Jenkins pipeline** is triggered via webhook
+3. 🧪 **Maven** builds the project & **SonarQube** performs code quality analysis
+4. 🐳 **Docker** builds container image for each service
+5. 🔍 **Trivy** scans the image for vulnerabilities
+6. 📦 Image is pushed to **Harbor** (private Docker registry)
+7. 🔁 **Argo CD** detects changes and syncs manifests from GitHub to Kubernetes cluster
+8. ☸️ **Kubernetes** deploys updated microservices
+9. 📊 **Prometheus + Grafana** monitor system metrics
+10. 🔔 **Slack** alerts on failures or resource issues
+
+![Workflow](image/Workflow.png)
