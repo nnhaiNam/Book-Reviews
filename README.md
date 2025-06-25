@@ -33,4 +33,4 @@ It covers infrastructure provisioning, CI/CD, container security, GitOps deploym
 
 ## 🧭 Architecture Diagram
 
-![Architecture](images/AWS_Architecture.png)
+![Architecture](image/AWS_Architecture.png)
