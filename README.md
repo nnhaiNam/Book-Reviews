@@ -46,6 +46,15 @@ It covers infrastructure provisioning, CI/CD, container security, GitOps deploym
 7. 🔁 **Argo CD** detects changes and syncs manifests from GitHub to Kubernetes cluster
 8. ☸️ **Kubernetes** deploys updated microservices
 9. 📊 **Prometheus + Grafana** monitor system metrics
-10. 🔔 **Slack** alerts on failures or resource issues
+10. 🖥️ Rancher provides a visual dashboard for managing and monitoring Kubernetes workloads and resources
+11. 🔔 **Slack** alerts about status of cluster
 
 ![Workflow](image/Workflow.png)
+
+---
+
+## 🔗 GitOps Repository
+
+- 📁 [book-reviews-gitops](https://github.com/nnhaiNam/book-reviews-gitops.git)  
+    _Contains K8s manifests, Ingress, Argo CD configs, and Slack alert rules for GitOps deployment._
+
