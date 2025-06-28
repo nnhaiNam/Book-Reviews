@@ -56,5 +56,8 @@ It covers infrastructure provisioning, CI/CD, container security, GitOps deploym
 ## 🔗 GitOps Repository
 
 - 📁 [book-reviews-gitops](https://github.com/nnhaiNam/book-reviews-gitops.git)  
-    _Contains K8s manifests, Ingress, Argo CD configs,Terraform and Slack alert rules for GitOps deployment._
+    _Contains K8s manifests, Ingress, Argo CD configs and Slack alert rules for GitOps deployment._
 
+## 🔗 Terraform Repository
+- 📁 [book-reviews-terraform](https://github.com/nnhaiNam/Terraform_K8S_Cluster.git)  
+    _Contains Terraform code for provisioning AWS infrastructure including VPC, EC2, security groups, and other resources._
