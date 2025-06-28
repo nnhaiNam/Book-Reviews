@@ -61,3 +61,9 @@ It covers infrastructure provisioning, CI/CD, container security, GitOps deploym
 ## 🔗 Terraform Repository
 - 📁 [book-reviews-terraform](https://github.com/nnhaiNam/Terraform_K8S_Cluster.git)  
     _Contains Terraform code for provisioning AWS infrastructure including VPC, EC2, security groups, and other resources._
+  
+---
+
+## 🎥 Demo Video
+- 🎬 [video](https://drive.google.com/drive/folders/1lcwFUXS4pjxLgbcq0dKt5J0j64s3KFHS?usp=sharing)  
+    _Video of the CI/CD DevOps pipeline, infrastructure provisioning, GitOps deployment, and monitoring._
